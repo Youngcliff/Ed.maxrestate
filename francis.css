@@ -39,7 +39,8 @@ html {
     padding: 10px 30px;
     margin: 15px;
     border-radius: 9px;
-    background-color: orangered;
+    background-color: green;
+    box-shadow: 0 0 2rem;
     border: none;
     color: rgb(255, 255, 255);
     letter-spacing: 0.2rem;
@@ -49,7 +50,7 @@ html {
 .content button:hover {
     transition: all .5s;
     cursor: pointer;
-    color: orangered;
+    color: green;
     box-shadow: inset 0 3rem #fff;
 }
 
@@ -74,7 +75,6 @@ html {
     position: absolute;
     top: 80%;
     left: 34%;
-
     display: flex;
 }
 
@@ -86,9 +86,7 @@ html {
     border-radius: 50px 0 0 50px;
 }
 
-.search input:checked {
-    border: none;
-}
+
 
 .search button {
     padding: 15px;
@@ -124,9 +122,18 @@ html {
     color: #fff;
 }
 
-.navbar #menu,
-a {
+.navbar #menu span
+ {
+    background-color: greenyellow;
+    padding: 1px;
+    text-decoration: none;
+
+}
+.menu a
+ {
     color: #fff;
+    padding: 1px;
+    transform: rotate(45deg);
     text-decoration: none;
 
 }
@@ -135,8 +142,9 @@ a {
     display: none;
 }
 
-#menu {
+#menu  {
     display: none;
+    transform: rotate(90deg);
 }
 
 .logo {
@@ -145,7 +153,7 @@ a {
 }
 
 .logo span {
-    color: orangered;
+    color: yellowgreen;
     font-weight: 600;
 }
 
@@ -186,7 +194,7 @@ a {
 }
 
 li a:hover {
-    color: orangered;
+    color: green;
 }
 
 .nav-links {
@@ -206,7 +214,7 @@ li a:hover {
 }
 
 .fff span {
-    color: orangered;
+    color: green;
     font-size: 20px;
     font-weight: 600;
 }
@@ -221,8 +229,8 @@ li a:hover {
 
 .property {
     justify-content: center;
-    height: auto;
     align-items: center;
+    height: auto;
     background-color: aliceblue;
     overflow: hidden;
 }
@@ -254,7 +262,7 @@ li a:hover {
 }
 
 .property span {
-    color: orangered;
+    color: green;
 }
 
 .property .text {
@@ -279,7 +287,7 @@ li a:hover {
     margin-left: 10px;
     border-radius: 50px;
     box-shadow: 0 0 0.5rem black;
-    background-color: rgb(249, 94, 38);
+    background-color: green;
     height: fit-content;
     width: fit-content;
     padding: 5px;
@@ -443,7 +451,7 @@ button {
 }
 
 .tran-art h1 {
-    color: orangered;
+    color: lightgreen;
 }
 
 .tran-art div {
@@ -461,7 +469,7 @@ button {
 }
 
 .agent span {
-    color: red;
+    color: green;
     font-weight: 500;
 }
 
@@ -494,14 +502,15 @@ button {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .team-content {
     display: flex;
-     flex-wrap: wrap;
-     gap: 100rem;
+    flex-wrap: wrap;
+    gap: 100rem;
 }
 
 .team span {
-    color: orangered;
+    color: green;
 }
 
 .team h1 {
@@ -509,6 +518,7 @@ button {
     font-size: 40px;
     font-weight: 600;
 }
+
 .team p {
     color: black;
     font-size: 16px;
@@ -522,6 +532,7 @@ button {
     align-items: center;
     justify-content: center;
 }
+
 .team-container {
     display: grid;
     align-items: center;
@@ -537,9 +548,11 @@ button {
     padding: 30px 50px;
     font-weight: 500;
 }
+
 .team-containers ul {
     text-align: left;
 }
+
 .team-content {
     display: flex;
     gap: 1rem;
@@ -553,10 +566,12 @@ button {
     border-radius: 10px;
     width: 25rem;
 }
+
 .team-container h1 {
     color: black;
     font-size: 30px;
 }
+
 .team-container input {
     height: 2.5rem;
     width: 20rem;
@@ -567,32 +582,35 @@ button {
     border-radius: 10px;
     transition: all .5s;
 }
+
 .team-container input:hover {
     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
     transition: all .5s;
 
 }
+
 .team-container p {
     font-size: 13px;
     padding: 50px;
 }
+
 .team-container button {
     padding: 10px 30px;
     margin: 15px;
     border-radius: 9px;
-    background-color: orangered;
+    background-color: green;
     border: none;
     color: rgb(255, 255, 255);
     letter-spacing: 0.2rem;
     transition: all .5s;
-    box-shadow:  0 0.5rem 0.5rem rgba(0, 0, 0, 0.4)
-
+    box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.4)
 }
 
 .team-container button:hover {
     transition: all .5s;
     cursor: pointer;
 }
+
 .acont {
     display: grid;
     align-items: center;
@@ -613,7 +631,7 @@ button {
 
 
 .img-container {
-    background-color: orangered;
+    background-color: green;
     border-radius: 50%;
     display: grid;
     align-items: center;
@@ -646,7 +664,7 @@ p {
     padding: 10px 30px;
     margin: 15px;
     border-radius: 9px;
-    background-color: orangered;
+    background-color: green;
     border: none;
     color: rgb(255, 255, 255);
     letter-spacing: 0.2rem;
@@ -656,7 +674,7 @@ p {
 .acont button:hover {
     transition: all .5s;
     cursor: pointer;
-    color: orangered;
+    color: green;
     box-shadow: inset 0 3rem #fff;
 }
 
@@ -705,12 +723,12 @@ p {
     padding: 25px;
     height: 30px;
     width: 19rem;
-    caret-color: orangered;
+    caret-color: green;
     transition: all .5s;
 }
 
 .contact span {
-    color: orangered;
+    color: green;
 }
 
 .contact textarea {
@@ -728,7 +746,7 @@ p {
     margin-bottom: 50px;
     padding: 10px 20px;
     border: none;
-    background: orangered;
+    background: green;
     color: #fff;
     border-radius: 5px;
 }
@@ -739,7 +757,7 @@ p {
 
 .contact button:hover {
     cursor: pointer;
-    background-color: orange;
+    background-color: green;
 }
 
 .foot {
@@ -812,7 +830,7 @@ input[type='submit'] {
     height: 55px;
     width: 55px;
     overflow: hidden;
-    box-shadow: 0 0 2rem cyan;
+    box-shadow: 0 0 2rem green;
     border-radius: 50px;
     transition: all .3s;
 }
@@ -833,7 +851,7 @@ input[type='submit'] {
 }
 
 .ss span {
-    color: orangered;
+    color: green;
     font-weight: 600;
 }
 
@@ -1016,7 +1034,7 @@ input[type='submit'] {
     }
 
     .nav-links li:hover {
-        background-color: skyblue;
+        background-color: gray;
         transition: all .2s;
     }
 
@@ -1052,13 +1070,20 @@ input[type='submit'] {
         display: block;
         gap: 40px;
     }
+    
+    .home-content {
+        padding: 30px;
+    }
+
+
     .team {
         height: 200vh;
     }
+
     .team-content {
         flex-wrap: wrap;
     }
-    
+
     .team-container {
         width: 23rem;
         border-radius: 30px;
@@ -1155,7 +1180,7 @@ input[type='submit'] {
         padding: 25px;
         height: 30px;
         width: 10rem;
-        caret-color: orangered;
+        caret-color: green;
         transition: all .5s;
     }
 
@@ -1171,7 +1196,7 @@ input[type='submit'] {
     .contact button {
         padding: 10px 20px;
         border: none;
-        background: orangered;
+        background: green;
         color: #fff;
         border-radius: 5px;
     }
